@@ -5,10 +5,10 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const FeaturedProducts: React.FC = () => {
   const products = [
     {
-      id: 'semi-husked',
-      title: 'Semi-Husked Coconuts',
-      description: 'Premium quality semi-husked coconuts from the finest plantations, perfect for export.',
-      imageUrl: 'https://images.pexels.com/photos/5945746/pexels-photo-5945746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+      id: 'red-chilli',
+      title: 'Red Chilli',
+      description: 'Sun-dried red chillies packed fresh for rich flavor and heat.',
+      imageUrl: '/images/artem-beliaikin-11VU8ydkbiA-unsplash.jpg'
     },
     {
       id: 'coconut-oil',

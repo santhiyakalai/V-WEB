@@ -7,8 +7,7 @@ interface ProductCardProps {
   title: string;
   description: string;
   imageUrl: string;
-}
-
+} 
 const ProductCard: React.FC<ProductCardProps> = ({ 
   id, 
   title, 

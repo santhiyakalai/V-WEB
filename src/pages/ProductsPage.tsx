@@ -39,27 +39,27 @@ const ProductsPage: React.FC = () => {
 
   const products: Product[] = [
     {
-      id: 'semi-husked',
-      title: 'Semi-Husked Coconuts',
-      imageUrl: 'https://images.pexels.com/photos/5945746/pexels-photo-5945746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      shortDescription: 'Premium quality semi-husked coconuts sourced from select plantations.',
-      longDescription: 'Our semi-husked coconuts are carefully selected from premium plantations, ensuring the highest quality and freshness. The partial husk retention provides extended shelf life while making it easier to handle and process. Each coconut is inspected for quality, size, and maturity before packing and export.',
-      specifications: [
-        'Variety: King Coconut / Ceylon Coconut',
-        'Size: Medium to Large (15-20 cm diameter)',
-        'Weight: 600-800 grams per nut',
-        'Husk Retention: 30-40%',
-        'Water Content: High',
-        'Shelf Life: 2-3 weeks under optimal conditions',
-        'Packaging: Mesh bags or crates of 10, 25, or 50 nuts'
-      ],
-      applications: [
-        'Direct consumption of coconut water and meat',
-        'Extraction of coconut milk and cream',
-        'Production of desiccated coconut',
-        'Culinary uses in restaurants and food service',
-        'Retail sale in supermarkets and specialty stores'
-      ]
+  id: 'red-chilli',
+  title: 'Red Chilli',
+  imageUrl: '/images/artem-beliaikin-11VU8ydkbiA-unsplash.jpg',
+  shortDescription: 'Premium grade sun-dried red chillies with intense color and heat.',
+  longDescription: 'Our red chillies are sourced from carefully monitored farms known for their high-quality produce. Sun-dried to preserve natural flavor and pungency, these chillies are ideal for both domestic use and international markets. Each batch is graded and cleaned to ensure uniform size, vivid color, and consistent heat levels, ready for export in protective packaging.',
+  specifications: [
+    'Variety: Sannam / Byadgi / Teja (based on availability)',
+    'Size: 7-12 cm length',
+    'Color: Deep red to bright crimson',
+    'Heat Level: 20,000 to 100,000 SHU (Scoville Heat Units)',
+    'Moisture Content: Below 12%',
+    'Shelf Life: Up to 12 months in dry, cool storage',
+    'Packaging: PP bags or cartons of 5, 10, or 25 kg'
+  ],
+  applications: [
+    'Used in spice blends and masalas',
+    'Base ingredient in chili powder production',
+    'Flavoring agent in curries and sauces',
+    'Pickling and food preservation',
+    'Retail sale in grocery and spice stores'
+  ]
     },
     {
       id: 'coconut-oil',

@@ -11,10 +11,10 @@ const HomePage: React.FC = () => {
   useEffect(() => {
     // Update document title when component mounts
     document.title = 'Voyago International - Premium Coconut Products';
-    
+
     // Scroll to top on page load
     window.scrollTo(0, 0);
-  }, []);
+  }, []); 
 
   return (
     <div>
